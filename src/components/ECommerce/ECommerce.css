@@ -1,0 +1,292 @@
+h1 {
+    
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+p {
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    display: block;
+}
+
+
+header nav {
+    height: auto;
+    width: auto;
+    background-color: #828e8f;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header nav a {
+    color: #000000;
+    margin: 0% 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 6px;
+    transition: all 0.5s;
+} 
+
+header nav a:hover {
+    background-color: white;
+    color: #000000;
+    transform: scale(1.2);
+}
+
+body {
+    background-color: #bacada;
+ }
+
+#login-page {
+    background-color: #ffffff;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    right: 50%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+    animation-name: loginToptoDown;
+    animation-duration: 2s;
+    top: 5px;
+    margin-top: 90px;
+    padding: 50px;
+}
+
+#login-page p{
+    display: none;
+    color: red;
+}
+
+.login {
+    font-size: 1.7rem;
+}
+
+input {
+    width: 85%;
+    height: 9%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding-left: 15px;
+    font-weight: 650;
+    color: rgba(0, 0, 0, 0.5);
+    outline-style: none;
+    margin-top: 10px;
+}
+
+.login-btn {
+    width: 80%;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #679289;
+    font-size: large;
+    font-weight: bold;
+}
+
+.login-btn:active {
+    background-color: #999299;
+}
+
+.Products h2 {
+    width: 100%;
+        text-align: center;
+        margin-top: 2em;
+    font-size: xx-large;
+}
+
+#FeaturedProductWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.FeaturedProduct {
+    display: flexbox;
+    margin: 20px;
+    padding: 2px;
+    height: 320px;
+    width: 300px;
+    background-color: #a9b9c9;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.FeaturedProduct:hover {
+    background-color: #7a7a7d;
+    border: 0.1px solid Black;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+.FeaturedProduct h3 {
+    color: black;
+}
+
+.FeaturedProduct p {
+    text-align: justify;
+
+}
+
+.FeaturedProduct button {
+    position:relative;
+    height: 50px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: #8d97a1;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.05s;
+}
+
+.FeaturedProduct button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.09);
+}
+
+.FeaturedProduct button:active{
+    background-color: green;
+}
+
+.ourproducts {
+    margin: 6px;
+    text-align: center;
+}
+
+.ourproducts h2 {
+    color: #000000;
+}
+
+#OurProductsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#OurProductsWrapper div img {
+    width: 60%;
+}
+
+.OurProduct {
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 375px;
+    border-radius: 6px;
+    border: 2px solid #679289;
+    background-color: #B5C9D4;
+    transition: all 0.5s;
+}
+
+.OurProduct p {
+    text-align: justify;
+}
+
+.ourProduct h3 {
+    color: #679289;
+
+}
+
+.OurProduct button{
+    outline: none;
+    border: none;
+    background-color: #679289;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.OurProduct button:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.OurProduct:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#message {
+    background-color: #679289;
+    color: white;
+    font-weight: bold;
+    border-radius: 100%;
+    outline: none;
+    border: none;
+    padding: 1em;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.message:active {
+    transform: scale(1.1);
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #828e8f;
+
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.more {
+    display: none;
+}
+
+@keyframes loginToptoDown {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 5px;
+    }
+}
